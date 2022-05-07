@@ -256,9 +256,11 @@ li {
 .home{
 	background-image: url(../assets/images/02_inicio_logo2.jpg);
 	background-size: cover;
+	width: 100vw;
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	
 }
 
@@ -868,10 +870,11 @@ li {
 	}
 } 
 @media only screen and (min-width: 414px) and (max-width: 415px) 
-    and (-webkit-device-pixel-ratio: 2){ 
+     and (-webkit-device-pixel-ratio: 2){ 
 		.home{
-			background-image: url(../assets/images/02_inicio_iphone.jpg) ;
-			background-size: contain;
+			
+			width: 100vw;
+			height: 100%;
 		}
 	}
 
