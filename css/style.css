@@ -868,7 +868,7 @@ li {
 	}
 } 
 @media only screen and (min-width: 414px) and (max-width: 415px) 
-    /* and (-webkit-device-pixel-ratio: 2) */{ 
+    and (-webkit-device-pixel-ratio: 2){ 
 		.home{
 			background-image: url(../assets/images/02_inicio_iphone.jpg) ;
 			background-size: contain;
