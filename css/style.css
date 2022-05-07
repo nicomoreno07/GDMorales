@@ -869,8 +869,7 @@ li {
 @media only screen and (min-width: 414px) and (max-width: 415px) 
     and (-webkit-device-pixel-ratio: 2) { 
 		.home{
-			background-image: none;
-			background-color: var(--secondary);
+			background-size: contain;
 		}
 	}
 
