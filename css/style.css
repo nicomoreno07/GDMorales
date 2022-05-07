@@ -256,11 +256,11 @@ li {
 .home{
 	background-image: url(../assets/images/02_inicio_logo2.jpg);
 	background-size: cover;
-	width: 100vw;
-	height: 100%;
+	/* width: 100vw;
+	height: 100%; */
 	background-position: center;
 	background-repeat: no-repeat;
-	/* background-attachment: fixed; */
+	background-attachment: fixed;
 	
 }
 
