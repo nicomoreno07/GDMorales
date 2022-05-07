@@ -823,6 +823,50 @@ li {
 }
 
 
+@media only screen and (min-width: 200px) and (max-width: 325px) {
+	
+	
+	h1 {
+		font-size: 30px;
+	}
+
+	.para .home {
+		width: 100%;
+	}
+
+	.swiper-container {
+		width: 92%;
+	}
+
+	.swiper-button-prev {
+		left: -16px;
+		width: 22px;
+		background-size: 22px 34px;
+	}
+
+	.swiper-button-next {
+		right: -16px;
+		width: 22px;
+		background-size: 22px 34px;
+	}
+
+	/* Nosotros */
+
+	.about-p{
+		padding-left: 10px;
+	}
+
+	.about-title{
+		font-size: 2rem;
+		padding: 10px;
+	}
+
+	.about-text{
+		text-align: justify;
+		padding: 10px;
+	}
+} 
+
 @media only screen and (min-width:326px) and (max-width:326px){
 
 	.home{
@@ -830,10 +874,7 @@ li {
 		background-color: var(--secondary);
 	}
 }
-
-
-
-@media only screen and (max-width: 540px) {
+@media only screen and (min-width: 327px) and (max-width: 540px) {
 	
 	
 	h1 {
