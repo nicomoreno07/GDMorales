@@ -871,7 +871,7 @@ li {
     /* and (-webkit-device-pixel-ratio: 2) */{ 
 		.home{
 			background-image: url(../assets/images/02_inicio_iphone.jpg) ;
-			background-size: cover;
+			background-size: contain;
 		}
 	}
 
