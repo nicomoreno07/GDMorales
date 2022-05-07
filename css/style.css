@@ -823,7 +823,7 @@ li {
 }
 
 
-@media only screen and (min-width: 200px) and (max-width: 325px) {
+@media only screen and (min-width: 200px) and (max-width: 413px) {
 	
 	
 	h1 {
@@ -866,15 +866,15 @@ li {
 		padding: 10px;
 	}
 } 
-
-@media only screen and (min-width:326px) and (max-width:326px){
-
-	.home{
-		background-image: none;
-		background-color: var(--secondary);
+@media only screen and (min-width: 414px) and (max-width: 415px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+		.home{
+			background-image: none;
+			background-color: var(--secondary);
+		}
 	}
-}
-@media only screen and (min-width: 327px) and (max-width: 540px) {
+
+@media only screen and (min-width: 416px) and (max-width: 540px) {
 	
 	
 	h1 {
