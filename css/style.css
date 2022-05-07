@@ -826,59 +826,7 @@ li {
 }
 
 
-@media only screen and (min-width: 200px) and (max-width: 413px) {
-	
-	
-	h1 {
-		font-size: 30px;
-	}
-
-	.para .home {
-		width: 100%;
-	}
-
-	.swiper-container {
-		width: 92%;
-	}
-
-	.swiper-button-prev {
-		left: -16px;
-		width: 22px;
-		background-size: 22px 34px;
-	}
-
-	.swiper-button-next {
-		right: -16px;
-		width: 22px;
-		background-size: 22px 34px;
-	}
-
-	/* Nosotros */
-
-	.about-p{
-		padding-left: 10px;
-	}
-
-	.about-title{
-		font-size: 2rem;
-		padding: 10px;
-	}
-
-	.about-text{
-		text-align: justify;
-		padding: 10px;
-	}
-} 
-@media only screen and (min-width: 414px) and (max-width: 415px) 
-     and (-webkit-device-pixel-ratio: 2){ 
-		.home{
-			
-			width: 100vw;
-			height: 100%;
-		}
-	}
-
-@media only screen and (min-width: 416px) and (max-width: 540px) {
+@media only screen and (max-width: 540px) {
 	
 	
 	h1 {
